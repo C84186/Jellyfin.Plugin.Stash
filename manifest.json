@@ -8,16 +8,8 @@
     "owner": "DirtyRacer1337",
     "versions": [
       {
-        "changelog": "Nightly build\n",
-        "checksum": "7c2373a7e1a56905562cee4d282535f2",
-        "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/nightly/stash_0.0.0.9000.zip",
-        "targetAbi": "10.8.0.0",
-        "timestamp": "2024-03-18T07:30:11Z",
-        "version": "0.0.0.9000"
-      },
-      {
-        "changelog": "Nightly build.\nAdd https://raw.githubusercontent.com/C84186/C84186/Jellyfin.Plugin.Stash/manifest-release/manifest.json\nto your repositories to use.\n",
-        "checksum": "121fad561e110f5253412ef7fe88c79a",
+        "changelog": "Nightly build.\nAdd https://raw.githubusercontent.com/C84186/Jellyfin.Plugin.Stash/manifest-release/manifest.json\nto your repositories to use.\n",
+        "checksum": "acba9b850ca1d636280ebdf55705d5ba",
         "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/latest_jellyfin/stash_0.0.0.9000.zip",
         "targetAbi": "10.8.0.0",
         "timestamp": "2024-03-18T07:56:02Z",
