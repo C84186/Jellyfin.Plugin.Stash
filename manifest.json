@@ -16,11 +16,11 @@
         "version": "0.0.0.9000"
       },
       {
-        "changelog": "## Continuous Integration\n- **publish-nightly**: :truck: no longer rename assemblies ([Smitten](https://github.com/C84186/Jellyfin.Plugin.Stash/commit/c65a9c2aae54f6c5f6f7f7e1007aed17d9e8da0a))",
-        "checksum": "",
-        "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/latest/Jellyfin.Plugin.Stash.zip",
+        "changelog": "Nightly build.\nAdd https://raw.githubusercontent.com/C84186/C84186/Jellyfin.Plugin.Stash/manifest-release/manifest.json\nto your repositories to use.\n",
+        "checksum": "121fad561e110f5253412ef7fe88c79a",
+        "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/latest_jellyfin/stash_0.0.0.9000.zip",
         "targetAbi": "10.8.0.0",
-        "timestamp": "2024-03-18T07:32:25Z",
+        "timestamp": "2024-03-18T07:56:02Z",
         "version": "0.0.0.9000"
       }
     ]
