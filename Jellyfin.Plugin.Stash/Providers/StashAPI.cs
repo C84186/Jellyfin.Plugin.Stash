@@ -74,16 +74,12 @@ namespace Stash.Providers
                 query = Path.GetFileNameWithoutExtension(path).Trim();
                 return string.Format(
                     @"
-                    scene_filter:{
-                        {
-                            path:{
-                                {
-                                    value:""{0}"",
-                                    modifier:INCLUDES
-                                }
-                            }
-                        }
-                    }",
+                    scene_filter:{{
+                        path:{{
+                                value:""{0}"",
+                                modifier:INCLUDES
+                            }}
+                    }}",
                     HttpUtility.JavaScriptStringEncode(query));
             }
 
@@ -91,16 +87,12 @@ namespace Stash.Providers
 
             return string.Format(
                 @"
-                scene_filter:{
-                    {
-                        path:{
-                            {
+                scene_filter:{{
+                        path:{{
                                 value:""{0}"",
                                 modifier:EQUALS
-                            }
-                        }
-                    }
-                }",
+                            }}
+                }}",
                 HttpUtility.JavaScriptStringEncode(query));
         }
 
