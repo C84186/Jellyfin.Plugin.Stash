@@ -1,7 +1,7 @@
 [
   {
     "category": "Metadata",
-    "description": "This plugin allows users to sign in through an SSO provider (such as Google, Facebook, or your own provider). This enables one-click signin.\nReview documentation at https://github.com/9p4/jellyfin-plugin-sso\n",
+    "description": "This plugin allows the user to configure a self-hosted stash instance as a\nmetadata provider\n",
     "guid": "af765402-cf54-4aa5-8fec-3ceb44fd8476",
     "name": "Stash",
     "overview": "Metadata Provider for Self Hosted Stash Instance",
@@ -9,7 +9,7 @@
     "versions": [
       {
         "changelog": "Nightly build.\nAdd https://raw.githubusercontent.com/C84186/Jellyfin.Plugin.Stash/manifest-release/manifest.json\nto your repositories to use.\n",
-        "checksum": "c700d2f0399f384facaf6dcbd2174718",
+        "checksum": "ede14168635bd8d76bd6cf546f82c2a7",
         "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/latest_jellyfin/stash_0.0.0.9000.zip",
         "targetAbi": "10.8.0.0",
         "timestamp": "2024-03-18T07:56:02Z",
