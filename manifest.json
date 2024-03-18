@@ -1,20 +1,28 @@
 [
-    {
-        "category": "Metadata",
-        "guid": "af765402-cf54-4aa5-8fec-3ceb44fd8476",
-        "name": "Stash",
-        "description": "",
-        "owner": "DirtyRacer",
-        "overview": "",
-        "versions": [
-            {
-                "checksum": "95cae6198346170ec56c025165962a56",
-                "changelog": "Initial release",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash/releases/download/1.0.0.1/Jellyfin.Plugin.Stash.zip",
-                "timestamp": "2023-04-05 15:38:50",
-                "version": "1.0.0.1"
-            }
-        ]
-    }
+  {
+    "category": "Authentication",
+    "description": "This plugin allows users to sign in through an SSO provider (such as Google, Facebook, or your own provider). This enables one-click signin.\nReview documentation at https://github.com/9p4/jellyfin-plugin-sso\n",
+    "guid": "af765402-cf54-4aa5-8fec-3ceb44fd8476",
+    "name": "Stash",
+    "overview": "Metadata Provider for Self Hosted Stash Instance",
+    "owner": "DirtyRacer1337",
+    "versions": [
+      {
+        "changelog": "Nightly build\n",
+        "checksum": "7c2373a7e1a56905562cee4d282535f2",
+        "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/nightly/stash_0.0.0.9000.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2024-03-18T07:30:11Z",
+        "version": "0.0.0.9000"
+      },
+      {
+        "changelog": "## Continuous Integration\n- **publish-nightly**: :truck: no longer rename assemblies ([Smitten](https://github.com/C84186/Jellyfin.Plugin.Stash/commit/c65a9c2aae54f6c5f6f7f7e1007aed17d9e8da0a))",
+        "checksum": "",
+        "sourceUrl": "https://github.com/C84186/Jellyfin.Plugin.Stash/releases/download/latest/Jellyfin.Plugin.Stash.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2024-03-18T07:32:25Z",
+        "version": "0.0.0.9000"
+      }
+    ]
+  }
 ]
